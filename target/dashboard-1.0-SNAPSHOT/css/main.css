@@ -1,0 +1,73 @@
+.gapReducer{
+    margin-top: 2rem;
+}
+.vatbg{
+    /*
+    background: #7aa0f9 !important;
+    */
+    background: -webkit-gradient(linear,left top,right top,from(#17d388),to(#93d6bb));
+    background: linear-gradient(90deg,#17d388,#93d6bb);
+    position: relative;
+}
+.taxbg{
+    /*background: #318fce !important;*/
+    background: -webkit-gradient(linear,left top,right top,from(#047edf),to(#90caf9));
+    background: linear-gradient(90deg,#047edf,#90caf9);
+    /*background: -webkit-gradient(linear,left top,right top,from(#047edf),color-stop(99%,#90caf9));
+    background: linear-gradient(90deg,#047edf,#90caf9 99%);*/
+    position: relative;
+
+}
+.cusbg{
+    background: -webkit-gradient(linear,left top,right top,from(#9e72ce),to(#d2beea));
+    background: linear-gradient(90deg,#9e72ce,#d2beea);
+    position: relative;
+
+}
+.summarybg{
+
+    background: -webkit-gradient(linear,left top,right top,from(#fe7096),to(#ffbf96));
+    background: linear-gradient(90deg,#fe7096,#ffbf96);
+    position: relative;
+
+}
+.cusbg>p,
+.cusbg>h4,
+.summarybg>.row>.col>p,
+.summarybg>h4,
+.taxbg>p,
+.taxbg>h4,
+.vatbg>h4,
+.vatbg>p{
+    color: #FFF;
+}
+.card-img-absolute {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.logo{
+    height: 35px;
+}
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #f093fb;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to bottom right, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to bottom right, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1))
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+}
+.card-registration .select-arrow {
+    top: 13px;
+}
